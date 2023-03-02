@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Register Member</title>
+</head>
+
+<body bgcolor="#B3C2E">
+    <!--Layout-->
+    <table width="30%" bgcolor="#DCDCDC" cellpadding="10" align="center">
+        <tr>
+            <td>
+                <table width="100%" bgcolor="#A9A9A9" cellpadding="1" align="center">
+                    <tr>
+                        <td>
+                            <!--judul form-->
+                            <center>
+                                <h1>Form Register Produk</h1>
+                            </center>
+                        </td>
+                    </tr>
+                </table>
+                <br />
+                <!--isi form-->
+                <form>
+                    <table>
+                        <tr>
+                            <td width=100>Nama Produk </td>
+                            <td><input type=text name=nama-produk></td>
+                        </tr>
+                        <tr>
+                            <td width=100>Jenis Produk </td>
+                            <td><select id="jenis-produk" name="jenis-produk">
+                                    <option value="kategori-produk"> --Kategori Produk--</option>
+                                    <option value="makanan">Makanan</option>
+                                    <option value="minuman">Minuman</option>
+                                    <option value="elektronik">Elektronik</option>
+                                    <option value="fashion">Fashion</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td width=100>Harga </td>
+                            <td><input type=text name=harga></td>
+                        </tr>
+                        <tr>
+                            <td width=100>Stok </td>
+                            <td><input type=text name=stok></td>
+                        </tr>
+                        <tr>
+                            <td width=100>Photo </td>
+                            <td><input type=text name=photo></td>
+                        </tr>
+                    </table>
+                    <br />
+                    <!--button-->
+                    <table width="100%" bgcolor="#A9A9A9" cellpadding="5" align="center">
+                        <tr>
+                            <td>
+                                <center>
+                                    <input type="submit" value="Kirim">
+                                    <input type="reset" value="Batal">
+                                </center>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
